@@ -4,5 +4,12 @@
     "type": "project",
     "require": {
         "illuminate/collections": "v10.17.1"
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^12.0"
+    },
+    "scripts": {
+        "ecs-check": "ecs check --ansi",
+        "ecs-fix": "ecs check --ansi --fix"
     }
 }
