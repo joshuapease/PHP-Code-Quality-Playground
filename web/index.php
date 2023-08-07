@@ -12,4 +12,8 @@ $mapped = collect([
     ->map(fn(string $x) => $x . '-mapped')
     ->all();
 
+echo 'Foo';
+
+$arr = array('a', 'b', 'c');
+
 print_r($mapped);
