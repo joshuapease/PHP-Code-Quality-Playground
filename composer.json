@@ -13,11 +13,12 @@
         "laravel/pint": "^1.10"
     },
     "scripts": {
-        "ecs-check": "ecs check --ansi",
-        "ecs-fix": "ecs check --ansi --fix",
         "php-cs-fixer-check": "php-cs-fixer fix --dry-run --allow-risky=yes --diff",
         "php-cs-fixer-fix": "php-cs-fixer fix",
+        "ecs-check": "ecs check --ansi",
+        "ecs-fix": "ecs check --ansi --fix",
         "php-codesniffer-check": "phpcs --report=diff",
+        "php-codesniffer-fix": "phpcbf",
         "pint-check": "pint web --test -v",
         "pint-fix": "pint web -v",
         "phpstan": "phpstan analyse"
