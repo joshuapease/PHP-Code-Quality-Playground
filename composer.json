@@ -1,0 +1,8 @@
+{
+    "name": "joshuapease/php-code-quality-tools",
+    "description": "Testing code quality tools out",
+    "type": "project",
+    "require": {
+        "illuminate/collections": "v10.17.1"
+    }
+}
