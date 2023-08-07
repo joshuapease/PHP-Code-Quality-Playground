@@ -8,13 +8,15 @@
     },
     "require-dev": {
         "symplify/easy-coding-standard": "^12.0",
-        "squizlabs/php_codesniffer": "^3.7"
+        "squizlabs/php_codesniffer": "^3.7",
+        "phpstan/phpstan": "^1.10"
     },
     "scripts": {
         "ecs-check": "ecs check --ansi",
         "ecs-fix": "ecs check --ansi --fix",
         "php-cs-fixer-check": "php-cs-fixer fix --dry-run --allow-risky=yes --diff",
         "php-cs-fixer-fix": "php-cs-fixer fix",
-        "php-codesniffer-check": "phpcs --report=diff"
+        "php-codesniffer-check": "phpcs --report=diff",
+        "phpstan": "phpstan analyse"
     }
 }

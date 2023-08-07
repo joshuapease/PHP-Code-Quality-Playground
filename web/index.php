@@ -1,19 +1,28 @@
 <?php
 
+use Illuminate\Support\Collection;
+
 require '../vendor/autoload.php';
 
 echo "Hello world";
 
-$mapped = collect([
-    'a',
-    'b',
-    'c'
-])
-    ->map(fn(string $x) => $x . '-mapped')
-    ->all();
+// Switching from boolean to string causes PHPStan to error because $abc expects a bool
+$myCollection = Collection::make([true, true, true]);
 
 echo 'Foo';
 
-$arr = array('a', 'b', 'c');
+$abc = function (bool $a): bool {
+    if ($a) {
+        return false;
+    }
 
-print_r($mapped);
+    return true;
+};
+
+$first = $myCollection->first();
+
+foreach ($myCollection as $item) {
+    echo $abc($item);
+}
+
+$arr = array('a', 'b', 'c');
