@@ -9,7 +9,8 @@
     "require-dev": {
         "symplify/easy-coding-standard": "^12.0",
         "squizlabs/php_codesniffer": "^3.7",
-        "phpstan/phpstan": "^1.10"
+        "phpstan/phpstan": "^1.10",
+        "laravel/pint": "^1.10"
     },
     "scripts": {
         "ecs-check": "ecs check --ansi",
@@ -17,6 +18,8 @@
         "php-cs-fixer-check": "php-cs-fixer fix --dry-run --allow-risky=yes --diff",
         "php-cs-fixer-fix": "php-cs-fixer fix",
         "php-codesniffer-check": "phpcs --report=diff",
+        "pint-check": "pint web --test -v",
+        "pint-fix": "pint web -v",
         "phpstan": "phpstan analyse"
     }
 }
