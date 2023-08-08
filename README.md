@@ -4,16 +4,9 @@
 This project uses DDEV.
 
 Follow the [installation instructions](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/) and then run `ddev start`
-# PHP-Code-Quality-Playground
-
-## Running this project
-This project uses DDEV.
-
-Follow the [installation instructions](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/) and then run `ddev start`
 
 ## Get things working with PHPStorm
 [View Guide](./docs/phpstorm.md)
-
 
 ## Overview
 I'm using this repo as a playground for testing code quality tools.
