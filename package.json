@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/joshuapease/PHP-Code-Quality-Playground#readme",
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3"
   }
 }

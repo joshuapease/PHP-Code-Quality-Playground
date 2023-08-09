@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-ddev composer run-script php-cs-fixer-check
+ddev exec npx lint-staged
