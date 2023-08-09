@@ -1,0 +1,27 @@
+{
+  "name": "php-code-quality-tools",
+  "version": "1.0.0",
+  "description": "## Running this project This project uses DDEV.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuapease/PHP-Code-Quality-Playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuapease/PHP-Code-Quality-Playground/issues"
+  },
+  "homepage": "https://github.com/joshuapease/PHP-Code-Quality-Playground#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3"
+  }
+}

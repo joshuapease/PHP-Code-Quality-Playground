@@ -1,0 +1,6 @@
+{
+  "web/*.php": [
+    "./vendor/bin/php-cs-fixer fix",
+    "./vendor/bin/phpstan analyse --memory-limit=1G"
+  ]
+}
